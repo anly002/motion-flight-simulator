@@ -33,6 +33,10 @@ The aircraft starts stationary on the runway with throttle at zero. At approxima
 
 ## Hardware
 
+![Annotated handheld controller showing the ESP32, MPU-6050 motion sensor, throttle button, Micro-USB port, breadboard, and power rails](Docs/images/flight-controller-annotated.png)
+
+*The assembled motion controller. Tilt the breadboard to control pitch and roll; hold the throttle button for full throttle and release it for idle. Connect the Micro-USB port to the PC for power and serial data.*
+
 - Original ESP32 development board; tested with an ESP32-D0WD-V3 / ESP32 Dev Module.
 - MPU-6050 breakout board.
 - Normally-open momentary pushbutton.

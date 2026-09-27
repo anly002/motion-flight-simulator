@@ -1,0 +1,56 @@
+# Unity-generated data and local editor state
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/.vs/
+/.vscode/
+/.idea/
+*.csproj
+*.sln
+*.slnx
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Local credentials, signing keys and environment files
+.env
+.env.*
+!.env.example
+*.keystore
+*.jks
+*.p12
+*.pfx
+
+# Local diagnostic reports and the old standalone tutorial sketch
+/Firmware/Verification.txt
+/Firmware/Button-Throttle-Verification.txt
+/Firmware/software-checks.txt
+/Firmware/OriginalSensorTest.ino
+/Assets/FlightLab/RaptorValley/Verification.txt
+/Assets/FlightLab/RaptorValley/Verification.txt.meta
+
+# Firmware build products
+/Firmware/build/
+*.elf
+*.hex
+*.bin
+*.map
